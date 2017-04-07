@@ -128,3 +128,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/pn5xx
+
+# WiFi
+PRODUCT_PACKAGES += \
+    TargetWifiOverlay
