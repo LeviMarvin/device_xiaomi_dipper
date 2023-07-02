@@ -7,10 +7,10 @@
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
 # Inherit some common Kaleidoscope stuff.
-$(call inherit-product, vendor/kscope/config/mobile.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := kscope_dipper
+PRODUCT_NAME := arrow_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8

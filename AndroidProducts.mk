@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope_dipper.mk
+    $(LOCAL_DIR)/arrow_dipper.mk
 
 COMMON_LUNCH_CHOICES := \
-    kscope_dipper-user \
-    kscope_dipper-userdebug \
-    kscope_dipper-eng
+    arrow_dipper-user \
+    arrow_dipper-userdebug \
+    arrow_dipper-eng
