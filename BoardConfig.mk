@@ -21,6 +21,9 @@ TARGET_SCREEN_DENSITY := 411
 # Faceunlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# GAPPS
+TARGET_BUILD_GAPPS := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := dipper_defconfig
 
